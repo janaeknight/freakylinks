@@ -14,15 +14,21 @@ header {
     display: flex; flex-direction: row;
     width: 100vw; height: 151px;
     border-bottom: 6px solid transparent;
-    border-image: url('../css/header/HEADER_1.gif');
+    border-image: url('../css/header/HEADER_2.gif');
     border-image-width: auto; border-image-repeat: repeat;
+    padding-bottom: 5px; border-image-slice: fill;
 }
 header .main {
     display: flex; flex-direction: column;
     width: 100%; height: 151px;
     background-image: url('../css/header/freakybg.png');
 }
-header #headLogo2 { width: 300px; height: auto; align-self: flex-end; }
+header #headLogo2 { width: 310px; height: auto; margin-left: 20px; }
+header #mainRightContainer {
+    width: 105px; height: inherit;
+    align-self: flex-end;
+    margin-right: 230px; margin-top: 12px;
+}
 
 #main {
     display: flex; flex-direction: row !important;
