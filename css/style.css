@@ -3,8 +3,12 @@ body {
     background-color: darkred;
     background-image: url('../css/genpop/BACKGR_2.gif');
     background-size: 64px; background-repeat: repeat;
-    background-position: center;
+    background-position: center; color: gainsboro;
+    font-family: Verdana, Arial, Geneva, "sans serif";
+    font-size: 13.5px;
 }
+
+header a, footer a { color: none; text-decoration: none; }
 
 header {
     display: flex; flex-direction: row;
@@ -19,17 +23,15 @@ header .main {
     background-image: url('../css/header/freakybg.png');
 }
 header #headLogo2 { width: 300px; height: auto; align-self: flex-end; }
-header .mHL { max-width: 150px; }
-#mHL1 { right: 0; }
-
-header #mHL1:hover { background-image: url('../css/header/NAV_FR_3.gif'); }
-header #mHL2:hover { background-image: url('../css/header/NAV_DI_2.gif'); }
-header #mHL3:hover { background-image: url('../css/header/NAV_FR_5.gif'); }
 
 #main {
     display: flex; flex-direction: row !important;
+    margin: 25px 3px;
 }
-article { width: 99%; }
+article { width: 99%; margin-right: 15px; }
+article li { margin: 8px 0; }
+article a { color: #CCFF99; font-weight: bold; }
+article a:visited { color: #88BB55 } /*<---- um yeahhhhh lol ok*/
 aside {
     width: 245px; height: 400px;
     background-color: lightcoral;
@@ -43,4 +45,9 @@ footer {
     background-size: auto; background-repeat: repeat-x;
 }
 
-footer #footLogo1 { height: 76%; margin-top: 9px; }
+footer a { margin-right: 20px; }
+footer #leftFoot { padding-top: 8px; width: 80%; }
+footer #footLogo1 { height: 31px; margin-top: 9px; align-self: flex-end;}
+
+
+.imgBlock { display: block; }
