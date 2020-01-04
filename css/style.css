@@ -21,7 +21,7 @@ header {
 header .main {
     display: flex; flex-direction: column;
     width: 100%; height: 151px;
-    background-image: url('../css/header/freakybg.png');
+    background-image: url('../css/header/freakybg.png'); 
 }
 header #headLogo2 { width: 310px; height: auto; margin-left: 20px; }
 header #mainRightContainer {

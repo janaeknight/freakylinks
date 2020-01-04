@@ -5,28 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>the Big Eye O' Freaky Links</title>
+
+    <!--
+        This is NOT the original Freaky Links site.
+        The original site and all its content belongs to Haxan Films, who made the show (they also made Blair Witch -- XD).
+
+        While the FL site is already archieved, THIS page on the archive will soon stop being supported since Flash is being discontinued. So I'm re-archiving it by attempting to conserve it with pure HTML/JS. The Freaky Links website is art- what can I say?
+
+        HAXAN FILMS FREAKYLINKS SITE: http://www.haxan.com/archived/freakylinks/WWWFRE~1.COM/HUBPAG~1.HTM
+
+    -->
     <meta name="description" content="Freaky Links strives to bring you the best of the weird, the unusual, the occult, the paranormal, and the just plain silly.">
     <meta name="keywords" content="freaky links, freaky, freak, derek barnes, strange phenomena, strange phenomenon, occult research, occult, unexplained, unusual, paranormal, wierd, mysterious, events, places, animals, cryptozoology, freakopedia, freak-o-pedia, diary, diary of a madman, friend or foe, freak store">
     <link href="css/flex.css" type="text/css" rel="stylesheet" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <script src="java/javascript.js"></script>
+
+    <style>
+        body {
+            width: 100vw; height: 100vh;
+            background-color: snow; margin: 0 auto;
+        }
+        #bigEye {
+            display: flex; flex-direction: row;
+            width: 100vw; height: 100vh;
+            background-color: snow;
+            background-image: url('css/genpop/bigeye.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #left, #right { width: 20%; height: inherit; }
+        #center { width: 100%; height: inherit; }
+
+        /*
+            L/R IMAGES
+        */
+
+            /* --LEFT*/
+
+            .imgTop {
+                position: fixed; top: 40px;
+                min-width: 30px;
+            }
+            .imgBottom {
+                position: fixed; bottom: 40px;
+                min-width: 90px;
+            }
+            .imgL { margin-left: 40px; }
+            .imgR { right: 40px;}
+
+        #frLiHead { width: 100%; }
+    </style>
 </head>
+<body>
 
-<body bgcolor="#FFFFFF" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" cz-shortcut-listen="true">
+    <div id="bigEye">
+        <div id="left">
+            <img class="imgL imgTop" src="css/genpop/faqDMain.png">
+            <img class="imgL imgBottom" src="css/genpop/freakstoreDMain.png">
+        </div>
+        <div id="center">
+            <img id="frLiHead" src="css/genpop/freaklinkHead.png">
+        </div>
+        <div id="right">
+            <img class="imgR imgTop" src="css/genpop/newDMain.png">
+            <img class="imgR imgBottom" src="css/genpop/emailDMain.png">
+        </div>
+    </div>
 
-
-    <!-- URL's used in the movie-->
+    <!-- URL's used in the movie>
     <a href="http://www.freakylinks.com/freakopedia/"></a>
     <a href="http://www.freakylinks.com/faq/"></a>
     <a href="http://www.freakylinks.com/friend_or_foe/"></a>
     <a href="http://www.freakylinks.com/diary/"></a>
     <a href="http://www.freakylinks.com/new/"></a>
     <a href="http://www.freakylinks.com/freak_store/"></a>
-    <a href="mailto:derek@freakylinks.com"></a> <!-- text used in the movie-->
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0" id="hubpage" width="100%" height="100%">
-     <param name="movie" value="hubpage.swf"> <param name="loop" value="false"> <param name="quality" value="high"> <param name="scale" value="exactfit"> <param name="bgcolor" value="#FFFFFF"> <embed src="hubpage.swf" loop="false" quality="high" scale="exactfit" bgcolor="#FFFFFF" width="100%" height="100%" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
-    </object>
+    <a href="mailto:derek@freakylinks.com"></a> text used in the movie-->
     
     
-    </body>
+</body>
 </html>
