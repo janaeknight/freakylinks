@@ -21,13 +21,14 @@
     <script src="java/javascript.js"></script>
 
     <style>
+        html { width: 100vw; height: 100vh; }
         body {
-            width: 100vw; height: 100vh;
-            background-color: snow; margin: 0 auto;
+            width: 800px; height: 550px;
+            background-color: black; margin: auto;
         }
         #bigEye {
             display: flex; flex-direction: row;
-            width: 100vw; height: 100vh;
+            width: inherit; height: inherit;
             background-color: snow;
             background-image: url('css/genpop/bigeye.jpg');
             background-size: cover;
@@ -36,28 +37,6 @@
         #left, #right { width: 20%; height: inherit; }
         #center { width: 100%; height: inherit; }
 
-        /*
-            L/R IMAGES
-        */
-
-            /* --LEFT*/
-
-            .imgTop {
-                position: fixed; top: 40px;
-                min-width: 30px;
-            }
-            .imgBottom {
-                position: fixed; bottom: 40px;
-                min-width: 90px;
-            }
-            .imgL { margin-left: 40px; }
-            .imgR { right: 40px;}
-
-        #frLiHead { display: block; width: 100%; }
-
-        @media screen and (min-width: 758px) {
-            #frLiHead { width: 542px; margin: 0 auto !important; }
-        }
     </style>
 </head>
 <body>
